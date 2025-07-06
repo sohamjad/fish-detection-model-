@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fish']
+
+roboflow:
+  workspace: soham-o8edj
+  project: custom-workflow-object-detection-wabso
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/soham-o8edj/custom-workflow-object-detection-wabso/dataset/1
